@@ -27,7 +27,7 @@ Vermelho: Risco de alagamento iminente.
 - Os dados processados são enviados via Wi-Fi para a plataforma online do Nimbos.
 
 ## Demonstração em vídeo
-![Video da simulação](youtube.com)
+[Video da simulação](youtube.com)
 
 ## Como Reproduzir
 
@@ -41,7 +41,7 @@ Vermelho: Risco de alagamento iminente.
 - Clique em "Upload" para carregar o código na sua placa.
   
 3. Testando o Sistema:
-- ![Link da simulação](https://www.tinkercad.com/things/4F3gLpkdbNu/editel?returnTo=%2Fdashboard&sharecode=90GU1vXpakn0o3KY3X1Vo6Fcgjs3kOfpjGVcgrMTFP4)
+## [Link da simulação](https://www.tinkercad.com/things/4F3gLpkdbNu/editel?returnTo=%2Fdashboard&sharecode=90GU1vXpakn0o3KY3X1Vo6Fcgjs3kOfpjGVcgrMTFP4)
 
 # Limitações da Simulação (Tinkercad)
 Este projeto foi desenvolvido utilizando o simulador Tinkercad, que possui limitações quanto à simulação de sensores reais. Por isso, os seguintes componentes foram adaptados:
