@@ -7,14 +7,6 @@ Autores
 - Matheus Goes da Silva `566407`
 - Mayke Santos `562680`
 
-## 📦 Componentes a serem Utilizados
-- Arduino Uno 
-- Sensor de peso (célula de carga + HX711)
-- Sensor de vazão de água
-- Módulo GPS (ex: NEO-6M)
-- Módulo Wi-Fi (ESP8266 ou similar)
-- LEDs (verde, amarelo, vermelho)
-- Bateria recarregável (ex: Li-Ion)
 
 ## ⚙️ Funcionamento
 ### 1. Coleta de Dados
@@ -35,6 +27,7 @@ Vermelho: Risco de alagamento iminente.
 - Os dados processados são enviados via Wi-Fi para a plataforma online do Nimbos.
 
 ## Demonstração em vídeo
+![Video da simulação](youtube.com)
 
 ## Como Reproduzir
 
@@ -48,6 +41,7 @@ Vermelho: Risco de alagamento iminente.
 - Clique em "Upload" para carregar o código na sua placa.
   
 3. Testando o Sistema:
+- ![Link da simulação](https://www.tinkercad.com/things/4F3gLpkdbNu/editel?returnTo=%2Fdashboard&sharecode=90GU1vXpakn0o3KY3X1Vo6Fcgjs3kOfpjGVcgrMTFP4)
 
 # Limitações da Simulação (Tinkercad)
 Este projeto foi desenvolvido utilizando o simulador Tinkercad, que possui limitações quanto à simulação de sensores reais. Por isso, os seguintes componentes foram adaptados:
@@ -63,3 +57,12 @@ Este projeto foi desenvolvido utilizando o simulador Tinkercad, que possui limit
 - **Real**: Sensor de vazão com medição em L/min ou m³/s.
 - **Limitação**: O potenciômetro não mede vazão de fato, apenas simula variação de fluxo girando o eixo manualmente.
 **Observação**: Na aplicação final, será necessário integrar um sensor de vazão apropriado (como o YF-S201 ou outro compatível).
+
+## 📦 Componentes a serem Utilizados
+- Arduino Uno 
+- Sensor de peso (célula de carga + HX711)
+- Sensor de vazão de água
+- Módulo GPS (ex: NEO-6M)
+- Módulo Wi-Fi (ESP8266 ou similar)
+- LEDs (verde, amarelo, vermelho)
+- Bateria recarregável (ex: Li-Ion)
