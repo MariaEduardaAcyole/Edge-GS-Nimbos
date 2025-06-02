@@ -49,16 +49,16 @@ Vermelho: Risco de alagamento iminente.
   
 3. Testando o Sistema:
 
-Limitações da Simulação (Tinkercad)
+# Limitações da Simulação (Tinkercad)
 Este projeto foi desenvolvido utilizando o simulador Tinkercad, que possui limitações quanto à simulação de sensores reais. Por isso, os seguintes componentes foram adaptados:
 
-# 🟠 Sensor de Força (FSR) como Sensor de Peso:
+### 🟠 Sensor de Força (FSR) como Sensor de Peso:
 - **Simulado**: Sensor de força.
 - **Real**: Célula de carga (load cell) com capacidade acima de 1 kg.
 - **Limitação**: No Tinkercad, o sensor de força só permite simular pesos equivalentes a até aproximadamente 1 kg (cerca de 9,8 N).
 **Observação**: Na aplicação real, o sistema precisará usar sensores adequados à carga esperada nos bueiros, que pode ultrapassar vários quilos.
 
-# 🟡 Potenciômetro como Sensor de Vazão:
+### 🟡 Potenciômetro como Sensor de Vazão:
 - **Simulado**: Potenciômetro.
 - **Real**: Sensor de vazão com medição em L/min ou m³/s.
 - **Limitação**: O potenciômetro não mede vazão de fato, apenas simula variação de fluxo girando o eixo manualmente.
