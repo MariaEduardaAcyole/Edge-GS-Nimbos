@@ -28,21 +28,28 @@ void loop() {
   Serial.print(" | Peso: ");
   Serial.print(peso);
 
-  if (peso >= 1014 || vazao < 300) {
+  if (peso >= 466 || vazao < 300) {
     // ALAGADO
     digitalWrite(ledVerde, LOW);
     digitalWrite(ledAmarelo, LOW);
     digitalWrite(ledVermelho, HIGH);
     Serial.println(" | Situação:  ALAGADO");
   }
-  else if (vazao < 400 || peso >= 400) {
+  else if (vazao <= 600) {
     // POSSÍVEL ALAGAMENTO se a vazão estiver baixa (sem escoamento) ou peso médio
     digitalWrite(ledVerde, LOW);
     digitalWrite(ledAmarelo, HIGH);
     digitalWrite(ledVermelho, LOW);
     Serial.println(" | Situação:  POSSÍVEL ALAGAMENTO");
   }
-  else {
+  else if (peso > 400) {
+    // OK (vazão alta e peso alto)
+    digitalWrite(ledVerde, HIGH);
+    digitalWrite(ledAmarelo, LOW);
+    digitalWrite(ledVermelho, LOW);
+    Serial.println(" | Situação:  Precisa de limpeza, mas sem risco iminente");
+  }
+   else {
     // OK (vazão alta e peso baixo)
     digitalWrite(ledVerde, HIGH);
     digitalWrite(ledAmarelo, LOW);
