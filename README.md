@@ -32,7 +32,7 @@ Vermelho: Risco de alagamento iminente.
 ## Como Reproduzir
 
 1. Montagem do Circuito:
-![Imagem da simulação](ArduinoNimbos.png)
+![Imagem da simulação](Nimbos.png)
    
 3. Carregando o Código:
 - Abra o Arduino IDE.
