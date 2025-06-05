@@ -27,7 +27,7 @@ Vermelho: Risco de alagamento iminente.
 - Os dados processados são enviados via Wi-Fi para a plataforma online do Nimbos.
 
 ## Demonstração em vídeo
-[Video da simulação](youtube.com)
+[Video da simulação](https://youtu.be/90b9TNgeN_0)
 
 ## Como Reproduzir
 
